@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import connectDB from "./config/db.js";
 import productRoutes from "./routes/productRoutes.js";
 import { invalidPath, errorHandler } from "./middleware/errorMiddleware.js";
-
+import cors from "cors";
 dotenv.config();
 
 connectDB();
@@ -14,6 +14,7 @@ app.get("/", (req, res) => {
     res.json("Hello");
 });
 
+app.use(cors());
 app.use("/api/products/", productRoutes);
 
 app.use(invalidPath);
