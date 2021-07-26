@@ -1,7 +1,7 @@
 const products = [
     {
         name: "Travel Clothes",
-        image: "/images/travelClothes.jpeg",
+        image: "/images/travelClothes.jpg",
         description:
             "Soft cotton blue-striped overalls for your little ones, accompanied with pink-tinted sunglasses, mini straw hat and mini luggage for your pet to travel with.",
         brand: "Kwokkieshop",
@@ -13,7 +13,7 @@ const products = [
     },
     {
         name: "Grey Cotton Bed",
-        image: "/images/petbed.jpeg",
+        image: "/images/petbed.jpg",
         description:
             "Comfortable, spacious bed for your pets. Fits larger pets as well.",
         brand: "Kwokkieshop",
@@ -25,7 +25,7 @@ const products = [
     },
     {
         name: "Cat Tower",
-        image: "/images/cattower.jpeg",
+        image: "/images/cattower.jpg",
         description:
             "A two-step tower with a small hideout at the bottom that your cats will love",
         brand: "Kwokkieshop",
@@ -37,7 +37,7 @@ const products = [
     },
     {
         name: "Pet Brush",
-        image: "/images/catbrush.jpeg",
+        image: "/images/catbrush.jpg",
         description:
             "A pet brush that will massage your pets while grooming their fur at the same time",
         brand: "Kwokkieshop",
@@ -50,7 +50,7 @@ const products = [
 
     {
         name: "Little Dolly",
-        image: "/images/handcraftdoll.jpeg",
+        image: "/images/handcraftdoll.jpg",
         description:
             "Handcrafted doll adorned with a velvet dress and a satin ribbon on top",
         brand: "Kwokkieshop",
@@ -62,7 +62,7 @@ const products = [
     },
     {
         name: "Soft Little Bear",
-        image: "/images/bear.jpeg",
+        image: "/images/bear.jpg",
         description:
             "Bring home the Soft Little Bear for your little fur animals to snuggle with",
         brand: "Kwokkieshop",
@@ -74,7 +74,7 @@ const products = [
     },
     {
         name: "Rose Bear Gift Set",
-        image: "/images/rosebeargiftset.jpeg",
+        image: "/images/rosebeargiftset.jpg",
         description:
             "The handcrafted Rose Bear is adorned with knitted apparels and shoes",
         brand: "Kwokkieshop",
@@ -86,7 +86,7 @@ const products = [
     },
     {
         name: "Blue Knitted Blanket",
-        image: "/images/blueblanket.jpeg",
+        image: "/images/blueblanket.jpg",
         description: "Soft blanket for your little fur animals to snuggle in",
         brand: "Kwokkieshop",
         category: "Living",
